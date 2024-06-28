@@ -25,7 +25,7 @@ body {
   border-radius: 15px;
 }
 .display {
-  height: 22%;
+  height: 24%;
   padding: 1rem;
   background-color: rgb(33, 33, 33);
   border-top-left-radius: 50%;
@@ -41,6 +41,7 @@ body {
   width: 100%;
   height: 50%;
   color: #60a07f;
+  font-size:1.325rem;
   text-align: right;
   font-weight: 400;
 }
@@ -48,14 +49,15 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.7rem;
+  margin-top: -0.5rem;
   background-color: #3b3b3b;
   width: 100%;
-  height: 59%;
-  color: #60a07f;
+  height: 50%;
+  color:white;
   text-align: right;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 
 .all-buttons {
