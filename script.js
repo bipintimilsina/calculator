@@ -2,9 +2,6 @@ let currentValue = "";
 let previousValue = "";
 let operator = "";
 
-let number1 = "";
-let number2 = "";
-let equal = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   let numbers = document.querySelectorAll(".number");
@@ -44,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   allClear.addEventListener("click", (e) => {
     previous.textContent = "";
-current.textContent=""
+    current.textContent = "";
     currentValue = "";
     previousValue = "";
     operator = "";
@@ -88,12 +85,11 @@ current.textContent=""
     } else if (operator == "%") {
       let out = percent(num1, num2);
       return out;
-    }
-    else{let out=currentValue
-      
- return out     
-    }
+    } else {
+      let out = currentValue;
 
+      return out;
+    }
   }
 
   function handleNumber(num) {

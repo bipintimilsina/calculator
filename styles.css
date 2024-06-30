@@ -103,7 +103,7 @@ body {
 .button.operators:hover {
   background-color: mediumturquoise;
 }
-.button.operators.equals:hover {
+.button.equals:hover {
   background-color: limegreen;
 }
 
