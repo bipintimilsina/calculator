@@ -66,8 +66,14 @@ document.addEventListener("DOMContentLoaded", () => {
     currentValue = "";
   }
   function operate(operator, num1, num2) {
-    if (operator == "+") {
-      let out = add(num1, num2);
+
+num2=num2.toString()
+    if(num2.length<=9){
+
+
+
+      if (operator == "+") {
+        let out = add(num1, num2);
       console.log(out);
       return out;
     } else if (operator == "-") {
@@ -82,15 +88,21 @@ document.addEventListener("DOMContentLoaded", () => {
       let out = divide(num1, num2);
       console.log(out);
       return out;
+      
+      
     } else if (operator == "%") {
       let out = percent(num1, num2);
       return out;
     } else {
       let out = currentValue;
-
+      
       return out;
     }
   }
+  else{
+    currentValue=Infinity
+  }
+}
 
   function handleNumber(num) {
     if (currentValue.length <= 9) currentValue = currentValue + num;

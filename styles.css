@@ -15,6 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 1.5rem;
 }
 
 .container .main {
@@ -114,4 +115,22 @@ button#equal {
   grid-column: span 2;
   /* width: ; */
   border-radius: 37px;
+}
+
+
+img{
+  width: 1.6rem;
+
+  
+  height: 1.6rem;
+  transition: all 0.7s ;
+}
+
+img:hover{
+  transform: rotate(360deg);
+  /* margin-top: 50px; */
+}
+
+footer{
+  font-size: 1.5rem;
 }
